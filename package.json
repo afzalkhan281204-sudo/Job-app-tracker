@@ -1,0 +1,23 @@
+{
+  "name": "job-app-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@prisma/client": "latest"
+  },
+  "devDependencies": {
+    "prisma": "latest",
+    "typescript": "latest"
+  }
+}
