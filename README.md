@@ -1,6 +1,6 @@
 # Job Application Tracker — Next.js + Prisma Starter
 
-Quick local starter for a Job Application Tracker using Next.js (app router) + TypeScript + Prisma.
+Job Application Tracker using Next.js (app router) + TypeScript + Prisma.
 
 Prereqs
 - Node.js 18+ (recommended)
@@ -21,15 +21,4 @@ Local setup
 4. Run dev server:
    npm run dev
 
-Open http://localhost:3000
 
-Notes
-- This starter uses SQLite for convenience. For production, change `datasource db.provider` to "postgresql" and set `DATABASE_URL` to your Postgres connection string.
-- No authentication included yet — add NextAuth or a custom auth flow and scope resources to users.
-- To inspect DB: `npx prisma studio`.
-
-Next steps I can implement for you
-- Add authentication (NextAuth + Prisma adapter) and protect API routes
-- File uploads with S3 signed URLs and attachments endpoints
-- Background worker using Redis + BullMQ for reminders
-- Tests, Tailwind + component library, and CI/CD to Vercel
